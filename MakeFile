@@ -1,0 +1,14 @@
+run:
+	textual run main.py --dev
+
+install:
+	pip install -r requirements.txt
+
+setup-docs:
+	git submodule update --init
+	cd vendor/textual && pip install -e .
+	pip install -r requirements-docs.txt
+	cd vendor/textual && mkdocs build -f mkdocs-offline.yml
+
+dev-doc:
+	cmd /c start "" "vendor\textual\docs-offline\index.html"

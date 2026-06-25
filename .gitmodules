@@ -1,3 +1,3 @@
-[submodule "external_libraries/textual"]
-	path = external_libraries/textual
+[submodule "vendor/textual"]
+	path = vendor/textual
 	url = https://github.com/Textualize/textual.git
