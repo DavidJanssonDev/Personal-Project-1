@@ -1,0 +1,3 @@
+[submodule "external_libraries/textual"]
+	path = external_libraries/textual
+	url = https://github.com/Textualize/textual.git
